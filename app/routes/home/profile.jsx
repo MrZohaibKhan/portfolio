@@ -21,10 +21,9 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
+      I’m Zohaib, currently I live in Pakistan working as a DevOps Engineer at{' '}
+      <Link href="https://www.csiperseus.com/">Perseus Group</Link>. An operating group of  {' '}
+      <Link href="https://www.csisoftware.com/">Constellation Software Inc</Link>. One of the top companies of Cananda.I specialize in creating and managing cloud environments on Azure, AWS, and Digital Ocean, handling IaaS, PaaS, and more. With expertise in technologies like Node.js, .NET Core, and Delphi, I've build and deployed numerous web, desktop, and legacy applications. I've built over 100 pipelines from scratch and have a strong focus on Azure DevOps for efficient automation and deployment.
       use check out my <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
