@@ -101,7 +101,7 @@ export const Home = () => {
       <ProjectSummary
         id="project-1"
         sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
+        // visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Designing the future of education"
         description="Designing a platform to help educators build better online courseware"
@@ -122,7 +122,7 @@ export const Home = () => {
         id="project-2"
         alternate
         sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
+        // visible={visibleSections.includes(projectTwo.current)}
         index={2}
         title="Video game progress tracking"
         description="Design and development for a video game tracking app built in React Native"
@@ -146,7 +146,7 @@ export const Home = () => {
       <ProjectSummary
         id="project-3"
         sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
+        // visible={visibleSections.includes(projectThree.current)}
         index={3}
         title="Biomedical image collaboration"
         description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"

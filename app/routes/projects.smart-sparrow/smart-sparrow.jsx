@@ -95,7 +95,7 @@ export const SmartSparrow = () => {
 
   return (
     <>
-      <ProjectContainer>
+      {/* <ProjectContainer>
         <ProjectBackground
           opacity={isDark ? 0.5 : 0.8}
           src={backgroundSpr}
@@ -549,7 +549,7 @@ export const SmartSparrow = () => {
             </ProjectTextRow>
           </ProjectSectionContent>
         </ProjectSection>
-      </ProjectContainer>
+      </ProjectContainer> */}
       <Footer />
     </>
   );
