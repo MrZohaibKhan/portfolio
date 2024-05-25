@@ -181,7 +181,7 @@ export const Contact = () => {
                 </div>
               )}
             </Transition>
-            <Button
+            {/* <Button
               className={styles.button}
               data-status={status}
               data-sending={sending}
@@ -193,7 +193,7 @@ export const Contact = () => {
               type="submit"
             >
               Send message
-            </Button>
+            </Button> */}
           </Form>
         )}
       </Transition>

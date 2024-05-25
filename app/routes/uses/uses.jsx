@@ -35,32 +35,27 @@ export const Uses = () => {
         />
         <ProjectHeader
           title="Uses"
-          description="A somewhat comprehensive list of tools, apps, hardware, and more that I use on a daily basis to design and code things. And yeah, that is a Johnny Mnemonic GIF in the background."
+          description="A somewhat comprehensive list of tools, apps, hardware, and more that I use on a daily basis to automate things. And yeah, that is a Johnny Mnemonic GIF in the background."
         />
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Design</ProjectSectionHeading>
+              <ProjectSectionHeading>Development and Operations</ProjectSectionHeading>
               <ProjectSectionText as="div">
                 <List>
                   <ListItem>
-                    <Link href="https://www.figma.com">Figma</Link> is my primary tool for
-                    UI design these days. Made the switch from Sketch in 2020 and haven’t
-                    looked back. I’ve also created{' '}
-                    <Link href="https://www.figma.com/@hamish">a few plugins</Link> that
-                    you can install.
+                  My primary text editor is VSCode, and IDE Visual Studio 2022.
                   </ListItem>
                   <ListItem>
-                    Any motion graphics I create are created in Adobe After Effects. So
-                    far I haven’t found a non-Adobe product that’s as good. If anyone has
-                    suggestions please <Link href="/contact">message me</Link>.
+                     I use Microsoft Edge for Windows along with Brave and firefox for Linux and Mac.
+                    {/* suggestions please <Link href="/contact">message me</Link>. */}
                   </ListItem>
-                  <ListItem>
+                  {/* <ListItem>
                     For any 3D models and video editing I use{' '}
                     <Link href="https://www.blender.org/">Blender</Link>. Since 2.8 it’s
                     become way simpler to use and in a lot of ways better than expensive
                     paid tools like 3DS Max or Maya.
-                  </ListItem>
+                  </ListItem> */}
                 </List>
               </ProjectSectionText>
             </ProjectTextRow>
@@ -69,10 +64,10 @@ export const Uses = () => {
         <ProjectSection padding="none" className={styles.section}>
           <ProjectSectionContent>
             <ProjectTextRow width="m">
-              <ProjectSectionHeading>Development</ProjectSectionHeading>
+              {/* <ProjectSectionHeading>Development</ProjectSectionHeading> */}
               <ProjectSectionText as="div">
                 <List>
-                  <ListItem>
+                  {/* <ListItem>
                     I use <Link href="https://vscodium.com/">VSCodium</Link> as my text
                     editor, with the Tokyo Night theme and Operator Mono as my typeface of
                     choice.
@@ -108,7 +103,7 @@ export const Uses = () => {
                       storybook for this website
                     </Link>
                     .
-                  </ListItem>
+                  </ListItem> */}
                 </List>
               </ProjectSectionText>
             </ProjectTextRow>
@@ -121,36 +116,36 @@ export const Uses = () => {
               <Table>
                 <TableBody>
                   <TableRow>
-                    <TableHeadCell>Desktop</TableHeadCell>
-                    <TableCell>Custom built</TableCell>
+                    <TableHeadCell>Laptop</TableHeadCell>
+                    <TableCell>HP Probook</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Operating system</TableHeadCell>
-                    <TableCell>Arch Linux (by the way)</TableCell>
+                    <TableCell>Windows 11</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Monitor</TableHeadCell>
-                    <TableCell>1440p IPS 144hz LG 27GL850</TableCell>
+                    <TableCell>Dell 24 Monitor - P2422H</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Keyboard</TableHeadCell>
-                    <TableCell>Tofu65</TableCell>
+                    <TableCell>Logitech MK295 SILENT WIRELESS</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Mouse</TableHeadCell>
-                    <TableCell>Logitech G403</TableCell>
+                    <TableCell>Logitech MK295 SILENT WIRELESS</TableCell>
                   </TableRow>
-                  <TableRow>
+                  {/* <TableRow>
                     <TableHeadCell>Laptop</TableHeadCell>
                     <TableCell>Macbook Pro 14″</TableCell>
-                  </TableRow>
+                  </TableRow> */}
                   <TableRow>
                     <TableHeadCell>Headphones</TableHeadCell>
-                    <TableCell>Audio Technica ATH-M50x/Apple Airpods</TableCell>
+                    <TableCell>Jabra Evolve 40 Stereo / Mono</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableHeadCell>Microphone</TableHeadCell>
-                    <TableCell>Blue Yeti</TableCell>
+                    <TableCell>Jabra</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>

@@ -23,13 +23,14 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I’m Zohaib, currently I live in Pakistan working as a DevOps Engineer at{' '}
       <Link href="https://www.csiperseus.com/">Perseus Group</Link>. An operating group of  {' '}
-      <Link href="https://www.csisoftware.com/">Constellation Software Inc</Link>. One of the top companies of Cananda.I specialize in creating and managing cloud environments on Azure, AWS, and Digital Ocean, handling IaaS, PaaS, and more. With expertise in technologies like Node.js, .NET Core, and Delphi, I've build and deployed numerous web, desktop, and legacy applications. I've built over 100 pipelines from scratch and have a strong focus on Azure DevOps for efficient automation and deployment.
+      <Link href="https://www.csisoftware.com/">Constellation Software Inc</Link>. One of the top companies of Cananda.I specialize in creating and managing cloud environments on Azure, AWS, and Digital Ocean, handling IaaS, PaaS, and more. With expertise in technologies like Node.js, .NET Core, and Delphi, I&apos;ve build and deployed numerous web, desktop, and legacy applications. I&apos;ve built over 100 pipelines from scratch and have a strong focus on Azure DevOps for efficient automation and deployment.
       use check out my <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
+      In my spare time I like to practice programming, play video games, and read books. I’m always down for hearing
       about new projects, so feel free to drop me a line.
+
+      {/*  {' '} <Link href="/projects/volkihar-knight">make mods</Link> */}
     </Text>
   </Fragment>
 );
